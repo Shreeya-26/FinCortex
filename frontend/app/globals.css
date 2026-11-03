@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{background:#F7F9FB;color:#0F1B2D;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif} :focus-visible{outline:2px solid #12907A;outline-offset:2px}
+@layer components{.card{@apply rounded-2xl border border-line bg-white p-5 shadow-[0_8px_30px_rgba(15,27,45,0.04)]}.label{@apply mb-1.5 block text-sm font-semibold text-ink}.input{@apply w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm focus:border-brand-500 focus:outline-none focus:ring-4 focus:ring-brand-500/10}.btn{@apply rounded-xl bg-brand-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-brand-700 disabled:opacity-60}.eyebrow{@apply text-xs font-bold uppercase tracking-[0.18em] text-brand-600}}

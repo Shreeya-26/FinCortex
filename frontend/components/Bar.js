@@ -1,0 +1,1 @@
+export default function Bar({value,color="bg-brand-600"}){return <div className="mt-1 h-2 rounded-full bg-line"><div className={`h-2 rounded-full ${color}`} style={{width:`${Math.min(Math.max(value,0),100)}%`}}/></div>}

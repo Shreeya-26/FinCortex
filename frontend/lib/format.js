@@ -1,0 +1,1 @@
+export const inr=n=>"₹"+Math.round(n||0).toLocaleString("en-IN");export const when=iso=>new Date(iso).toLocaleString("en-IN",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});export const tone=score=>score>=75?{color:"#0E7C66",text:"text-brand-600"}:score>=50?{color:"#D99A1E",text:"text-warn"}:{color:"#C0392B",text:"text-danger"};
